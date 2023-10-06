@@ -1,0 +1,12 @@
+[ 2023-10-07 00:21:49,592 ] 27 root - INFO - Entered the data ingestion method or component
+[ 2023-10-07 00:21:49,597 ] 31 root - INFO - Read the dataset as dataframe
+[ 2023-10-07 00:21:49,602 ] 37 root - INFO - Train & Test split initiated
+[ 2023-10-07 00:21:49,608 ] 43 root - INFO - Ingestion of the data is complete
+[ 2023-10-07 00:21:49,612 ] 68 root - INFO - Read train and test data
+[ 2023-10-07 00:21:49,612 ] 70 root - INFO - Obtaining preprocessing object
+[ 2023-10-07 00:21:49,612 ] 47 root - INFO - numerical_pipeline: ['reading_score', 'writing_score']
+[ 2023-10-07 00:21:49,612 ] 48 root - INFO - categorical_pipeline: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2023-10-07 00:21:49,614 ] 84 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-10-07 00:21:49,630 ] 98 root - INFO - Saved Processing Object
+[ 2023-10-07 00:21:49,631 ] 32 root - INFO - Splitting training & test input data
+[ 2023-10-07 00:21:50,514 ] 64 root - INFO - Best model found on train & test
